@@ -1,0 +1,51 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
+
+  &.dark {
+    background-color: #001529;
+    color: #fff;
+  }
+
+  &.light {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.menu-icon {
+  font-size: 24px;
+}
+
+.menu-btn {
+  padding: 0;
+}
+
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar-wrapper {
+  cursor: pointer;
+}
+
+.drawer-footer {
+  padding: 0;
+}
+
+.close-btn {
+  height: 48px;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 16px;
+
+  // Colors based on theme will still come from inline `style` to adapt dynamically
+}
+
+
+

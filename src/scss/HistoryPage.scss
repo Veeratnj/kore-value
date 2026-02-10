@@ -1,0 +1,100 @@
+.history-page {
+  min-height: 100vh;
+  padding: 1rem;
+
+  .filter-bar {
+    margin-bottom: 1rem;
+  }
+
+  .table-wrapper {
+    border: 2px solid #d9d9d9;
+  }
+
+  &.light-theme {
+    background-color: #fff;
+    color: #000;
+
+    .ant-table,
+    .ant-pagination {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .ant-pagination-item-active {
+      border-color: #1890ff;
+    }
+  }
+
+  &.dark-theme {
+    background-color: #001529;
+    color: #fff;
+
+    .ant-table {
+      background-color: #001529;
+
+      .ant-table-thead > tr > th,
+      .ant-table-tbody > tr > td {
+        background-color: #001529;
+        color: #fff;
+        border-color: #434343;
+      }
+    }
+
+    .ant-radio-button-wrapper {
+      background: #1f1f1f;
+      color: #fff;
+      border-color: #434343;
+
+      &:hover,
+      &.ant-radio-button-wrapper-checked {
+        background: #3a3a3a;
+        color: #fff;
+      }
+    }
+
+    // 💡 Fix for pagination in dark mode
+    .ant-pagination {
+      color: #fff;
+
+      .ant-pagination-item {
+        background-color: #1f1f1f;
+        border-color: #434343;
+
+        a {
+          color: #fff;
+        }
+
+        &:hover {
+          background-color: #3a3a3a;
+        }
+      }
+
+      .ant-pagination-item-active {
+        background-color: #3a3a3a;
+        border-color: #1890ff;
+
+        a {
+          color: #1890ff;
+        }
+      }
+
+      .ant-pagination-prev,
+      .ant-pagination-next {
+        button {
+          color: #fff;
+          border: none;
+
+          &:hover {
+            color: #1890ff;
+          }
+        }
+      }
+
+      .ant-pagination-disabled {
+        button {
+          color: #777;
+        }
+      }
+    }
+  }
+}
