@@ -1,0 +1,61 @@
+{
+  "title": "Explore Our Services",
+  "subtitle": "Click a service to learn more.",
+  "items": [
+    {
+      "title": "Cost Analyzer",
+      "slogan": "See exactly where every dollar is being spent across clouds.",
+      "href": "#cost-analyzer"
+    },
+    {
+      "title": "Category Views",
+      "slogan": "Slice spend by teams, projects, and business categories.",
+      "href": "#category-views"
+    },
+    {
+      "title": "K8s Cost Observability",
+      "slogan": "Track Kubernetes spend by namespace, pod, and workload.",
+      "href": "#k8s-cost-observability"
+    },
+    {
+      "title": "Recommendations",
+      "slogan": "Get actionable suggestions to reduce waste and optimize resources.",
+      "href": "#recommendations"
+    },
+    {
+      "title": "Anomaly Detection",
+      "slogan": "Spot unusual spend patterns before they become budget surprises.",
+      "href": "#anomaly-detection"
+    },
+    {
+      "title": "Reporting",
+      "slogan": "Build and schedule cost reports for stakeholders.",
+      "href": "#reporting"
+    },
+    {
+      "title": "Virtual Tags",
+      "slogan": "Tag resources dynamically without changing cloud metadata.",
+      "href": "#virtual-tags"
+    },
+    {
+      "title": "Cost Allocation",
+      "slogan": "Allocate spend to teams, products, and business units.",
+      "href": "#cost-allocation"
+    },
+    {
+      "title": "Unit Economics",
+      "slogan": "Understand cost per user, request, and feature usage.",
+      "href": "#unit-economics"
+    },
+    {
+      "title": "Forecasting",
+      "slogan": "Predict next quarter's spend with historical trends.",
+      "href": "#forecasting"
+    },
+    {
+      "title": "Budgeting",
+      "slogan": "Set spend targets and get alerts when you’re close to limits.",
+      "href": "#budgeting"
+    }
+  ]
+}
