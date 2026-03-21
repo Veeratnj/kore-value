@@ -1,0 +1,216 @@
+{
+  "Navbar": {
+    "menu": ["Home", "Services", "Platform", "Resources"],
+    "buttons": {
+      "contact": "Contact Us",
+      "login": "Login"
+    }
+  },
+
+  "Hero": {
+    "title": "A Single Solution to Manage AI and Hybrid Infrastructure costs",
+    "description": "Get end-to-end visibility, chargeback, and forecasting across AI, Cloud, SaaS, and on-prem infrastructure to control costs before they grow."
+  },
+
+  "Infrastructure": {
+    "cards": [
+      {
+        "title": "FinOps Autopilot",
+        "description": "AI Agents that simplify cloud cost management across stake holders",
+        "cardTop": 100,
+        "titleTop": 200,
+        "descTop": 300,
+        "width": "auto",
+        "descWidth": "684px"
+      },
+      {
+        "title": "Brings clarity and Control to AI Spend",
+        "description": "AI cost can be unpredictable and complex, our AI financial management will be predictable",
+        "cardTop": 600,
+        "titleTop": 650,
+        "descTop": 850,
+        "width": "581px",
+        "descWidth": "653px"
+      },
+      {
+        "title": "Autonomous K8s and GPU Resource Optimization",
+        "description": "The most powerful Agentic Platform for automated resource optimization",
+        "cardTop": 1100,
+        "titleTop": 1150,
+        "descTop": 1350,
+        "width": "827px",
+        "descWidth": "766px"
+      }
+    ]
+  },
+
+  "visibility": {
+    "title": "One Platform, End-to-End Visibility",
+    "description": "Track and manage the true cost of workloads across every environment with clarity.",
+    "frameImage": "/Rectangle 65.png",
+    "buttons": {
+      "contact": "Contact Us",
+      "demo": "Get a Demo"
+    },
+    "cards": [
+      {
+        "icon": "/workload.png",
+        "title": "Track AI Workloads End-to-End",
+        "description": "Monitor the cost of every model call, agent interaction, and GPU hour while enabling detailed visibility for precise chargeback allocation."
+      },
+      {
+        "icon": "/container.png",
+        "title": "Handle Complex Shared Resources",
+        "description": "Allocate costs across Kubernetes clusters, shared databases, and multi-tenant infrastructure effortlessly with KoreValue’s intelligent allocation engine."
+      },
+      {
+        "icon": "/cloud.png",
+        "title": "Unify Multi-Cloud Cost Data",
+        "description": "Move beyond scattered reports from AWS, Azure, GCP and on-prem with a unified platform that standardizes cost data across environments."
+      },
+      {
+        "icon": "/pie-chart.png",
+        "title": "Govern Before you Spend",
+        "description": "Implement budget protections to stop unapproved resource creation before it impacts your billing."
+      },
+      {
+        "icon": "/settings.png",
+        "title": "Integrate into Existing Workflows",
+        "description": "Built on an API-first model, it integrates with ERP, ITSM, and BI platforms."
+      },
+      {
+        "icon": "/graph.png",
+        "title": "Deploy in Days, not Months",
+        "description": "Integrated discovery automation and virtual tagging start working right away."
+      }
+    ]
+  },
+
+  "services": {
+    "title": "Explore Our Services",
+    "cards": [
+      {
+        "icon": "/cost.png",
+        "title": "Cost Analyzer",
+        "description": "See exactly where every cost is being spent across clouds"
+      },
+      {
+        "icon": "/category.png",
+        "title": "Category Views",
+        "description": "Slice spend by teams, projects, and business categories"
+      },
+      {
+        "icon": "/observability.png",
+        "title": "K8s Cost Observability",
+        "description": "Track Kubernetes spend by namespace, pod, and workload"
+      },
+      {
+        "icon": "/recommendation.png",
+        "title": "Recommendations",
+        "description": "Get actionable suggestions to reduce waste and optimize resources"
+      },
+      {
+        "icon": "/anomaly.png",
+        "title": "Anomaly Detection",
+        "description": "Spot unusual spend patterns before they become budget surprises"
+      },
+      {
+        "icon": "/reporting.png",
+        "title": "Reporting",
+        "description": "Build and schedule cost reports for stakeholders"
+      },
+      {
+        "icon": "/virtual.png",
+        "title": "Virtual Tags",
+        "description": "Tag resources dynamically without changing cloud metadata"
+      },
+      {
+        "icon": "/cost-allocation.png",
+        "title": "Cost Allocation",
+        "description": "Allocate spend to teams, products, and business units"
+      },
+      {
+        "icon": "/unit-economics.png",
+        "title": "Unit Economics",
+        "description": "Understand cost per user, request, and feature usage"
+      },
+      {
+        "icon": "/forecasting.png",
+        "title": "Forecasting",
+        "description": "Predict future spend with historical trends"
+      },
+      {
+        "icon": "/budgeting.png",
+        "title": "Budgeting",
+        "description": "Set spending limits and get alerts when close to thresholds"
+      }
+    ]
+  },
+  "demo": {
+    "heading": "NO RISK PROOF OF VALUE",
+    "title": "Start controlling your AI and Hybrid Environment Costs.",
+    "description": "Monitor every expense across cloud, on-premise systems, AI and SaaS through a single platform. Avoid unexpected costs with real-time cost distribution, anomaly monitoring and predictive forecasting. Streamline cost management using chargebacks, spending guardrails, and AI-powered insights.",
+    "form": {
+      "title": "Request a Demo",
+      "name": "Name",
+      "email": "E-Mail",
+      "organization": "Organization Name",
+      "source": "How you Know about us?",
+      "submit": "Submit"
+    }
+  },
+
+   "koreValue": {
+    "services": {
+      "title": "Services",
+      "left": [
+        "Cost Analyzer",
+        "Category Views",
+        "K8s Cost Observability",
+        "Recommendations",
+        "Anomaly Detection",
+        "Budgeting"
+      ],
+      "right": [
+        "Reporting",
+        "Virtual Tags",
+        "Cost Allocation",
+        "Unit Economics",
+        "Forecasting"
+      ]
+    },
+    "resource": {
+      "title": "Resource",
+      "items": [
+        "Blogs",
+        "E-Books",
+        "Release Notes"
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "items": [
+        "About Us",
+        "Customers",
+        "Governance",
+        "Privacy Policy",
+        "Terms of Use",
+        "Security"
+      ]
+    },
+    "platform": {
+      "title": "Platform",
+      "items": [
+        "AI Cost Management",
+        "Cost-to-Save",
+        "Cost-to-Outcomes",
+        "Hybrid Cloud Cost Management",
+        "GPU Chargeback",
+        "Kubernetes Cost Management",
+        "Tier 2 Azure"
+      ]
+    },
+    "followText": "Follow us on",
+    "copyright": "© 2026 KoreValue AI-Powered Cloud Intelligence Platform"
+  }
+}

@@ -4,9 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* GLOBAL RESET */
-
 *{
   margin:0;
   padding:0;
@@ -14,7 +11,7 @@
 }
 
 body{
-  font-family:'Poppins',sans-serif;
+  font-family:'Inter',sans-serif;
   background-color:#0A0F0B;
   color:white;
   overflow-x:hidden;
@@ -23,12 +20,6 @@ body{
 html{
   scroll-behavior:smooth;
 }
-
-
-
-/* ========================= */
-/* NETWORK BACKGROUND MOTION */
-/* ========================= */
 
 @keyframes networkMove {
 
@@ -50,12 +41,6 @@ html{
   animation:networkMove 20s ease-in-out infinite;
 }
 
-
-
-/* ========================= */
-/* NETWORK NODE GLOW */
-/* ========================= */
-
 .network-nodes circle{
   filter:drop-shadow(0 0 8px #77B900);
 }
@@ -64,26 +49,12 @@ html{
   opacity:0.7;
   stroke-dasharray:6 6;
 }
-
-
-
-/* ========================= */
-/* GREEN GLOW EFFECT */
-/* ========================= */
-
 .glow-green{
   box-shadow:
   0 0 10px rgba(119,185,0,0.6),
   0 0 20px rgba(119,185,0,0.4),
   0 0 30px rgba(119,185,0,0.2);
 }
-
-
-
-/* ========================= */
-/* HERO GRADIENT */
-/* ========================= */
-
 .hero-gradient{
   background:linear-gradient(
     180deg,
@@ -91,13 +62,6 @@ html{
     rgba(39,60,0,0.85) 100%
   );
 }
-
-
-
-/* ========================= */
-/* DOT BACKGROUND PATTERN */
-/* ========================= */
-
 .dot-pattern{
   background-image:radial-gradient(
     rgba(119,185,0,0.15) 1px,
@@ -105,37 +69,6 @@ html{
   );
   background-size:20px 20px;
 }
-
-
-
-/* ========================= */
-/* DASHBOARD GREEN GLOW */
-/* ========================= */
-
-.dashboard-glow{
-  position:absolute;
-  left:50%;
-  transform:translateX(-50%);
-  bottom:-120px;
-
-  width:1200px;
-  height:420px;
-
-  background:#77B900;
-
-  opacity:0.35;
-
-  filter:blur(180px);
-
-  border-radius:100%;
-}
-
-
-
-/* ========================= */
-/* LAPTOP FLOAT ANIMATION */
-/* ========================= */
-
 @keyframes laptopFloat{
 
   0%{
@@ -154,34 +87,4 @@ html{
 
 .laptop-float{
   animation:laptopFloat 6s ease-in-out infinite;
-}
-
-/* Custom scrollbar matching the app theme */
-.custom-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(255,255,255,0.35) rgba(0,0,0,0.1);
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-  width: 10px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(119,185,0,0.18);
-  border-radius: 9999px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.25);
-  border-radius: 9999px;
-  box-shadow: 0 0 0 1px rgba(119,185,0,0.25);
-  backdrop-filter: blur(8px);
-  background-clip: padding-box;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(255,255,255,0.23);
-  box-shadow: 0 0 0 1px rgba(119,185,0,0.45);
 }
